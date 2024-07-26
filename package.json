@@ -7,12 +7,17 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
+    "test": "turbo test",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "ui:add": "pnpm --filter @repo/ui ui:add"
+    "ui:add": "pnpm --filter @repo/ui ui:add",
+    "env:example": "python3 ./scripts/env_to_ex.py .",
+    "prepare": ""
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "husky": "^9.1.2",
+    "lint-staged": "^15.2.7",
     "prettier": "^3.3.2",
     "turbo": "2.0.6"
   },

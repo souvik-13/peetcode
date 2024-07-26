@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-vscode.vscode-typescript-next",
+        "christian-kohler.path-intellisense",
+        "esbenp.prettier-vscode",
+        "prisma.prisma",
+        "dbaeumer.vscode-eslint"
+    ]
+}
