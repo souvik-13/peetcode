@@ -21,6 +21,14 @@
     "prettier": "^3.3.2",
     "turbo": "2.0.6"
   },
+  "lint-staged": {
+    "apps/**/*.{js,ts,jsx,tsx}": [
+      "eslint --fix"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  },
   "packageManager": "pnpm@8.9.0",
   "engines": {
     "node": ">=18"
