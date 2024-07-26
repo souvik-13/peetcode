@@ -1,1 +1,1 @@
-pnpm run test && pnpm dlx lint-staged
+pnpm run test && pnpm run env:example && pnpm dlx lint-staged
