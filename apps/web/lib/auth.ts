@@ -1,5 +1,5 @@
 import { AuthOptions } from "next-auth";
-import { config } from "~/lib/config"
+import { config } from "~/lib/config";
 
 const authOptions: AuthOptions = {
   secret: config.NEXTAUTH_SECRET,
