@@ -2,7 +2,7 @@ import { Button } from "@repo/ui/components/ui/button";
 
 export default function Page() {
   return (
-    <main>
+    <main className="min-w-screen h-[100dvh] grid place-items-center">
       <Button>Click me</Button>
     </main>
   );
